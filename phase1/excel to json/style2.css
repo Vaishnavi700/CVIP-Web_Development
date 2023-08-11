@@ -1,0 +1,46 @@
+
+* {
+    font-family: '"Times New Roman", Times, serif';
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("conver.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+legend {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding: 20px;
+    font-size: 18px;
+}
+
+legend {
+    background-color: #4db2b9;
+    color: white;
+    padding: 5px 10px;
+}
+
+fieldset {
+    background-color:aquamarine;
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+}
+
+input {
+    padding: 15px;
+}
+
+.btn {
+    margin: 4px;
+}
